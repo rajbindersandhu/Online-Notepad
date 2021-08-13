@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Online Notepad</title>
+        <link rel="stylesheet" href ="page.css">
+    </head>
+    <body>
+        <div class="container">
+            <header id="pad-head">
+                <h1 id="heading">Online Notepad</h1>
+                <section id="save-me">
+                    <label>Save My Notes</label>
+                    <input type="checkbox" id="checkme" >
+                </section>
+            </header>
+            <main id="body-container">
+                <textarea id="textarea" placeholder="Write your notes here " ></textarea>
+            </main>
+            <footer>
+               <label>Clear Memory</label>
+                    <button id="clearMe" onclick="allClear()">X</button>
+            </footer>
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>

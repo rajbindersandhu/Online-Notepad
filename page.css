@@ -1,0 +1,42 @@
+
+.container{
+    border:2px solid black;
+    
+}
+#pad-head{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: lightsteelblue;
+    padding:2%;
+    height:10px;
+}
+#heading{
+    align-self: center;
+    
+}
+#save-me{
+    align-self: center;
+   
+}
+#clearMe{
+    background-color: red;
+    color: black;
+    
+}
+
+#textarea{
+    width: 100%;
+    box-sizing: border-box;
+    height: 500px;
+    padding:1%;
+    overflow: scroll;
+    font-size: 15px;
+}
+footer{
+    background-color: lightsteelblue;
+    text-align:end;
+    padding-right: 1%;
+    padding-top: 0.5%;;
+    margin-top: -0.5%;;
+}
